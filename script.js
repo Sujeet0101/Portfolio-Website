@@ -5,12 +5,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-const dialogues = [
-  "FullStack JS Developer",
-  "I offer great services.",
-  "Contact me for more information.",
-  "Follow me on social media.",
-];
+const dialogues = ["FullStack JS Developer", "ML Enthusiast"];
 
 let currentDialogueIndex = 0;
 const dialogueElement = document.getElementById("dialogue");
